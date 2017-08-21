@@ -30,5 +30,5 @@ setup(name='robotframework-tftplibrary',
       install_requires=['tftpy'],
       data_files=[('Example RF script', ['tftp_library_example.txt']),
                   ('Keywords documentation', ['TftpLibrary.html']),
-                  ('License file', ['LICENSE_lgpl-3.0.txt'])]
+                  ('License file', ['LICENSE'])]
       )
