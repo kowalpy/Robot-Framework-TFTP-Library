@@ -26,8 +26,7 @@ OR
 The simplest example (connect, download file, upload file):
 
 ```
- | ftp connect | 192.168.1.10             | mylogin | mypassword |
- | cwd         | /home/myname/tmp/testdir |         |            |
- | pwd         |                          |         |            |
- | ftp close   |                          |         |            |
+	| Tftp Connect  | ${tftp_server_address} |
+	| Tftp Download | ${file_name_01}        |
+	| Tftp Upload   | ${file_name_02}        |
 ```
