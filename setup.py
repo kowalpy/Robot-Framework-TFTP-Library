@@ -28,7 +28,7 @@ setup(name='robotframework-tftplibrary',
       url='https://github.com/kowalpy/Robot-Framework-TFTP-Library/',
       py_modules=['TftpLibrary'],
       install_requires=['tftpy'],
-      data_files=[('Example RF script', ['tftp_library_example.txt']),
+      data_files=[('Example RF script', ['tftp_library_example.robot']),
                   ('Keywords documentation', ['TftpLibrary.html']),
                   ('License file', ['LICENSE'])]
       )
