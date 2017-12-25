@@ -20,7 +20,7 @@ To install Robot Framework Tftp Library execute command:
 from distutils.core import setup
 
 setup(name='robotframework-tftplibrary',
-      version='1.0',
+      version='1.1',
       description='Robot Framework Tftp Library',
       author='Marcin Kowalczyk',
       author_email='mkov80@gmail.com',

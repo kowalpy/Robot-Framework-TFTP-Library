@@ -12,7 +12,15 @@ LGPL 3.0
 
 [TftpLibrary.html](https://kowalpy.github.io/Robot-Framework-TFTP-Library/TftpLibrary.html)
 
+## Version history
+
 Version 1.0 released on 21st of August 2017 
+
+Version 1.1 released on 25th of December 2017  
+
+What's new in release 1.1:
+- python 3 support
+- setup bugfix by Jinhyuk.Im
 
 ## Installation
 - run command: pip install robotframework-tftplibrary

@@ -28,7 +28,11 @@ isn't a complex protocol so the library contains only small amount of keywords.
 Very often TFTP communication is used by telecom equipment for purpose of uploading
 configuration or getting log files (e.g. Cisco routers).
 
-Version 1.0 released on 21st of August 2017
+Version 1.1 released on 25th of December 2017
+
+What's new in release 1.1:
+- Python 3 support
+- Setup bugfix by [https://github.com/zwei22|Jinhyuk.Im]
 
 TFTP communication provided by [http://tftpy.sourceforge.net/|tftpy]
 
@@ -169,8 +173,8 @@ class TftpLibraryError(Exception):
         return self.msg
 
 def main():
-    print "Robot Framework TFTP library. Not intended to run as standalone process. "
-    print "Webpage: https://github.com/kowalpy/Robot-Framework-TFTP-Library"
+    print("Robot Framework TFTP library. Not intended to run as standalone process. ")
+    print("Webpage: https://github.com/kowalpy/Robot-Framework-TFTP-Library")
 
 if __name__ == '__main__':
     main()
