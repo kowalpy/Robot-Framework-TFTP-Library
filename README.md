@@ -2,7 +2,9 @@
 
 This library provides functionality of TFTP client.
 [Trivial File Transfer Protocol](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol)
-isn't a complex protocol so the library contains only small amount of keywords. TFTP communication provided by [tftpy](http://tftpy.sourceforge.net/) .
+isn't a complex protocol so the library contains only small amount of keywords. TFTP communication provided by [tftpy](http://tftpy.sourceforge.net/) . 
+
+If you find this library useful you can always support me by buying a :coffee: https://buymeacoffee.com/kowalpy :smirk:
 
 ## License
 
